@@ -1,3 +1,9 @@
+#Created by SUPARNA DAS
+
+# Taking Image Screenshot using Python OPENCV
+
+
+
 import numpy as np
 import cv2
 
@@ -24,9 +30,5 @@ while True:
         print("screenshot took")
         img_count += 1
 
-
-    #cv2.imshow('frame', frame)
-    #if cv2.waitKey(20) & 0xFF == ord('q') :
-    #    break
 cap.release()
 cv2.destroyAllWindows()
