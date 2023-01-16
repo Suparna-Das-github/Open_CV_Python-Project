@@ -1,3 +1,6 @@
+#Small code for opening video cam using PYTHON OPENCV
+#created by Suparna Das
+
 import numpy as np
 import cv2
 
@@ -9,5 +12,5 @@ while True:
     cv2.imshow('frame', frame)
     if cv2.waitKey(20) & 0xFF == ord('q') :
         break
-#cap.release()
-#cv2.destroyAllWindows()
+cap.release()
+cv2.destroyAllWindows()
